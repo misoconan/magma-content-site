@@ -3,6 +3,7 @@ import SectionHeading from "@/components/SectionHeading";
 import PostCard from "@/components/PostCard";
 import ReportCard from "@/components/ReportCard";
 import ImageSlot from "@/components/ImageSlot";
+import NewsletterSignup from "@/components/NewsletterSignup";
 import { siteConfig } from "@config";
 import { getAll } from "@/lib/content";
 
@@ -57,6 +58,8 @@ export default function Home() {
           </div>
         )}
       </section>
+
+      <NewsletterSignup />
     </>
   );
 }
